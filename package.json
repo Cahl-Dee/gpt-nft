@@ -1,0 +1,25 @@
+{
+  "name": "st0r1",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "dotenv-load": "^2.0.1",
+    "eslint": "8.36.0",
+    "eslint-config-next": "13.2.4",
+    "next": "13.2.4",
+    "next-connect": "^0.13.0",
+    "next-env": "^1.1.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-modal": "^3.16.1",
+    "react-select": "^5.7.0",
+    "web3": "^1.8.2"
+  }
+}

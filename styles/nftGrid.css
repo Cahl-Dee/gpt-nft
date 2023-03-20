@@ -62,8 +62,13 @@ body {
     flex-direction: column;
     gap: 0.3rem;
     min-height: 300px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
   }
   
+  .nft-item:hover {
+    box-shadow: 0 4px 6px rgb(255 255 255 / 75%), 0 1px 3px rgb(255 255 255 / 75%);
+  }
   
   .nft-item img {
     max-width: 100%;

@@ -198,14 +198,14 @@ const ConnectWallet = () => {
 
             <div className="nft-grid">
                 {filteredNfts.map((nft) => (
-                <div key={nft.collectionTokenId} className="nft-item">
+                <div key={nft.collectionTokenId} className="nft-item" onClick={() => openModal(nft)}>
                     <img src={nft.imageUrl} alt={nft.name} />
                     <h3>{nft.name}</h3>
                     <div className="single-line">
                         <span className="label">Collection: </span>
                         <span>{nft.collectionName}</span>
                     </div>
-                    <div className="single-line" onClick={() => openModal(nft)}>
+                    <div className="single-line">
                       <span className="label">Token ID: </span>
                       <span>{nft.collectionTokenId}</span>
                     </div>
